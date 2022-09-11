@@ -1,16 +1,28 @@
-# This is a sample Python script.
+print("#----------CASE1-------------------------")
+a = int(input("podaj wartość: " ))
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+#-----------------------------------
+if a == 1:
+    print(f'a= {a}')
+else:
+    print('pierwsze else   ' + f'{a}')
+#-----------------------------------
+if a == 3:
+    print(f'a= {a}')
+#-----------------------------------
+if a ==4:
+    print(f'a= {a}')
+else:
+    print('drugie else  '+ f'{a}')
+#-----------------------------------
+print('#-----------------------------------')
 
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+print("#----------CASE2-------------------------")
+if a == 1:
+    print(f'a= {a}')
+#-----------------------------------
+elif a == 3:
+    print(f'a= {a}')
+#-----------------------------------
+elif a ==4:
+    print(f'a= {a}')
