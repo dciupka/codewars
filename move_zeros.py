@@ -23,6 +23,25 @@ def move_zeros(lst):
     lst = without_zero + zero
     return lst
 
+def move_zeros(arr):
+    l = [i for i in arr if isinstance(i, bool) or i!=0]
+    return l+[0]*(len(arr)-len(l))
+
+def move_zeros(arr):
+    l = [i for i in arr if isinstance(i, bool) or i!=0]
+    return l+[0]*(len(arr)-len(l))
+
+def move_zeros(array):
+    return [x for x in array if x] + [0]*array.count(0)
+
+def move_zeros(a):
+    a.sort(key=lambda v: v == 0)
+    return a
+
+def move_zeros(array):
+    return sorted(array, key=lambda x: x==0 and type(x) is not bool)
+
+
 
 """
 import codewars_test as test
